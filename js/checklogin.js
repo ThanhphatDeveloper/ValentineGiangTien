@@ -6,7 +6,6 @@ function checkCredentials() {
         setTimeout(() => {
             checkCredentials();
         }, 4000);
-        alert("Đăng nhập thành công !!!");
         window.location.href = "slide.html";
     } else {
         alert("Đăng nhập không thành công !!!");
